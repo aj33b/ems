@@ -26,6 +26,7 @@ def main():
 
             emp_manager = EmployeeManager()
             # Local Extra Comment
+            # Local Extra Comment 2
 
             while True:
                 print("\nEmployee Management System")
