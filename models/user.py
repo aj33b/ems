@@ -6,6 +6,7 @@ class User:
         self.username = username
         self.password = self.hash_password(password)
         self.logged_user = None
+        # User comment
 
     def hash_password(self,password):
         return hashlib.sha256(password.encode()).hexdigest()
