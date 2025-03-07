@@ -10,6 +10,7 @@ def main():
         print("2. Migrate Database")
         print("3. Exit")
         #Extra Comment
+        # Extra Comment 2
 
         choice = input("Enter your choice: ")
 
